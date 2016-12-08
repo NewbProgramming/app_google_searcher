@@ -1,0 +1,10 @@
+C:\OneDrive\Documents\Projects\app_google_searcher\app_google_searcher\bin\Debug\app_google_searcher.exe.config
+C:\OneDrive\Documents\Projects\app_google_searcher\app_google_searcher\bin\Debug\app_google_searcher.exe
+C:\OneDrive\Documents\Projects\app_google_searcher\app_google_searcher\bin\Debug\app_google_searcher.pdb
+C:\OneDrive\Documents\Projects\app_google_searcher\app_google_searcher\obj\Debug\app_google_searcher.csprojResolveAssemblyReference.cache
+C:\OneDrive\Documents\Projects\app_google_searcher\app_google_searcher\obj\Debug\app_google_searcher.google_searcher.resources
+C:\OneDrive\Documents\Projects\app_google_searcher\app_google_searcher\obj\Debug\app_google_searcher.Properties.Resources.resources
+C:\OneDrive\Documents\Projects\app_google_searcher\app_google_searcher\obj\Debug\app_google_searcher.csproj.GenerateResource.Cache
+C:\OneDrive\Documents\Projects\app_google_searcher\app_google_searcher\obj\Debug\app_google_searcher.exe
+C:\OneDrive\Documents\Projects\app_google_searcher\app_google_searcher\obj\Debug\app_google_searcher.pdb
+C:\OneDrive\Documents\Projects\app_google_searcher\app_google_searcher\obj\Debug\app_google_searcher.google_search.resources
