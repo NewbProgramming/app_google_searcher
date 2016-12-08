@@ -30,6 +30,12 @@ namespace app_google_searcher
         {
             if(this.close == false) {
                 e.Cancel = true;
+
+                // Stop the page from background processing.
+                website_browser.Url = new Uri("http://www.google.com");
+                // website_browser.Stop();
+                ((Control) website_browser).Enabled = false;
+
                 this.Hide();
             }
         }
@@ -57,6 +63,9 @@ namespace app_google_searcher
                 if(string.IsNullOrWhiteSpace(search) == false) {
                     this.Show();
                     this.BringToFront();
+
+                    // Allow the page to do background stuff.
+                    ((Control)website_browser).Enabled = true;
 
                     string uri = 
                         "http://www.google.com/search?q=" + 
