@@ -76,7 +76,7 @@ namespace app_google_searcher
                             .ToString()
                     ;
 
-                    website_browser.Url = new Uri(uri);
+                    website_browser.Navigate(new Uri(uri));
                 }
             }
         }
