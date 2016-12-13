@@ -80,7 +80,8 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "google_search";
-            this.Text = "google_search";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Google Searcher";
             this.Load += new System.EventHandler(this.google_search_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

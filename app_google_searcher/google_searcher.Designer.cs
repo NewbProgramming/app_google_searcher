@@ -32,8 +32,8 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(google_searcher));
             this.notify = new System.Windows.Forms.NotifyIcon(this.components);
             this.notify_menu = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.website_browser = new System.Windows.Forms.WebBrowser();
             this.notify_menu_exit = new System.Windows.Forms.ToolStripMenuItem();
+            this.website_browser = new System.Windows.Forms.WebBrowser();
             this.notify_menu.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -41,7 +41,7 @@
             // 
             this.notify.ContextMenuStrip = this.notify_menu;
             this.notify.Icon = ((System.Drawing.Icon)(resources.GetObject("notify.Icon")));
-            this.notify.Text = "notify";
+            this.notify.Text = "Google Searcher";
             this.notify.Visible = true;
             this.notify.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.notify_MouseDoubleClick);
             // 
@@ -53,6 +53,13 @@
             this.notify_menu.Size = new System.Drawing.Size(93, 26);
             this.notify_menu.Text = "notify_menu";
             // 
+            // notify_menu_exit
+            // 
+            this.notify_menu_exit.Name = "notify_menu_exit";
+            this.notify_menu_exit.Size = new System.Drawing.Size(92, 22);
+            this.notify_menu_exit.Text = "Exit";
+            this.notify_menu_exit.Click += new System.EventHandler(this.notify_menu_exit_Click);
+            // 
             // website_browser
             // 
             this.website_browser.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -61,13 +68,6 @@
             this.website_browser.Name = "website_browser";
             this.website_browser.Size = new System.Drawing.Size(686, 316);
             this.website_browser.TabIndex = 1;
-            // 
-            // notify_menu_exit
-            // 
-            this.notify_menu_exit.Name = "notify_menu_exit";
-            this.notify_menu_exit.Size = new System.Drawing.Size(152, 22);
-            this.notify_menu_exit.Text = "Exit";
-            this.notify_menu_exit.Click += new System.EventHandler(this.notify_menu_exit_Click);
             // 
             // google_searcher
             // 
